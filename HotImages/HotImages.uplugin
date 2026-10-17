@@ -1,0 +1,25 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"FriendlyName": "HotImages - External Image Live Sync",
+	"Description": "Watches a folder inside Content (default Content/HotImages) that holds source png/jpg files together with same-name proxy UTexture2D assets. In the editor, external updates to the image files are automatically re-imported into the proxy assets; at runtime, packaged builds watch the loose folder and refresh the loaded textures in place.",
+	"Category": "Rendering",
+	"CreatedBy": "Codex",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimental": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "HotImagesRuntime",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "HotImagesEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit"
+		}
+	]
+}

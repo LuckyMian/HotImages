@@ -1,0 +1,32 @@
+# Unreal Engine generated
+DerivedDataCache/
+Intermediate/
+Binaries/
+Saved/
+Build/
+Source/*.vcxproj*
+*.sln
+*.suo
+*.user
+*.opensdf
+*.sdf
+*.db
+.vs/
+.idea/
+.clangd
+compile_commands.json
+*.VC.db
+
+# Editor/OS noise
+Thumbs.db
+.DS_Store
+desktop.ini
+*.log
+
+# Local packaged build output
+HotImageDemo/Windows/
+
+# The demo references the plugin through a junction created by SetupDemoPlugin.ps1.
+# Plugin sources live at the repository root under HotImages/ and must not be
+# tracked twice through the junction.
+HotImageDemo/Plugins/HotImages/

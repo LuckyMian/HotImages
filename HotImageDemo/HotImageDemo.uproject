@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.4",
+	"Category": "Samples",
+	"Description": "Demo project for the HotImages plugin: editor auto-imports proxies from Content/HotImages and the HUD demonstrates runtime refresh from loose files.",
+	"Modules": [
+		{
+			"Name": "HotImageDemo",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"CoreUObject"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "HotImages",
+			"Enabled": true
+		}
+	]
+}
